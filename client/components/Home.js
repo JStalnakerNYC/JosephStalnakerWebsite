@@ -1,26 +1,17 @@
 import React from 'react'
-import {connect} from 'react-redux'
+import Navbar from './NavBar'
 
-/**
- * COMPONENT
- */
-export const Home = props => {
-  const {username} = props
+const Home = () => {
+
 
   return (
     <div>
-      <h3>Welcome, {username}</h3>
+      <h1>JOSEPH STALNAKER</h1>
+      <hr />
+      <Navbar />
     </div>
   )
 }
 
-/**
- * CONTAINER
- */
-const mapState = state => {
-  return {
-    username: state.auth.username
-  }
-}
 
-export default connect(mapState)(Home)
+export default Home
