@@ -24,11 +24,16 @@ const Navbar = () => (
         <span>MISCELLANEOUS</span>
       </div>
     </div>
-    <div className="menu">
-      <div className="label">BIOGRAPHY</div>
-    </div>
-    <div className="menu">
-      <div className="label">CONTACT</div>
+    <div className="carousel-menu-container">
+      <div className="menu-container-two">
+        <div className="menu">
+          <div className="label">BIOGRAPHY</div>
+        </div>
+        <div className="menu">
+          <div className="label">CONTACT</div>
+        </div>
+      </div>
+      <div className="carousel-container">Hello</div>
     </div>
   </div>
 );
