@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import SlideShow from "./SlideShow";
 
 const Navbar = () => (
   <div className="menu-container">
@@ -11,9 +13,11 @@ const Navbar = () => (
       <div className="item">
         <span>THE BEAUTIFUL GAME</span>
       </div>
-      <div className="item">
-        <span>CASTINGS</span>
-      </div>
+      <Link to="/casting">
+        <div className="item">
+          <span>CASTINGS</span>
+        </div>
+      </Link>
       <div className="item">
         <span>NIGHTSCAPES</span>
       </div>
@@ -33,7 +37,9 @@ const Navbar = () => (
           <div className="label">CONTACT</div>
         </div>
       </div>
-      <div className="carousel-container">Hello</div>
+      <div className="carousel-container">
+        <SlideShow />
+      </div>
     </div>
   </div>
 );
