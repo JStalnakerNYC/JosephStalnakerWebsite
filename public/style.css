@@ -151,4 +151,9 @@ span {
   display: flex;
   justify-content: flex-start;
   flex-direction: row;
+  width: 90%;
+}
+
+.slideshow-image-two {
+  width: 175px;
 }

@@ -13,7 +13,7 @@ const Navbar = () => (
       <div className="item">
         <span>THE BEAUTIFUL GAME</span>
       </div>
-      <Link to="/casting">
+      <Link to="/castings">
         <div className="item">
           <span>CASTINGS</span>
         </div>
